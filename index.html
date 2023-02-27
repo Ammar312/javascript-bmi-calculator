@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">   
+        <div class="head">
+            <h1>BMI(Body Mass Index)</h1>
+        </div>
+    </div>
+    <div class="btn">
+        <button onclick="bmiCalculator()">Check BMI</button>
+    </div>
+    <div class="imageBox">
+    <div class="image">
+        <img src="./bmi-chart.gif" alt="">
+    </div>
+    </div>
+
+</body>
+
+
+<script>
+    const bmiCalculator = () =>{
+    let weight =prompt("Please enter your Weight","Must be in KG") ;
+    weight = parseFloat(weight)
+    let height = prompt("Please enter your Height","Must be in (Feet.Inches)");
+    height = parseFloat(height)
+    let bmi = weight/((height*0.3048)**2)
+    bmi = parseFloat(bmi).toFixed(2)
+
+    if (bmi < 18.5){
+        alert("Your Body Mass Index is " + bmi +"." + " This is considered Underweight.")
+    }
+    else if (bmi >= 18.5 && bmi < 25){
+        alert("Your Body Mass Index is " + bmi +"." +" This is considered Normal.")
+    }
+    else if (bmi >= 25 && bmi < 30){
+        alert("Your Body Mass Index is " + bmi +"." +" This is considered Overweight.")
+    }
+    else {
+        alert("Your Body Mass Index is " + bmi +"." +" This is considered Obese.")
+    }
+    }
+</script>
+</html>
