@@ -8,44 +8,39 @@
     <title>BMI Calculator</title>
 </head>
 <body>
-    <div class="container">   
+    <header>
+        <div>BMI CALCULATOR</div>
+    </header>
+    <fieldset>
+    <legend><div class="container">   
         <div class="head">
             <h1>BMI(Body Mass Index)</h1>
         </div>
+    </div></legend>
+    <div class="form">
+    <div class="inputBox">
+        <input type="float" id="1" value="" required="required" >
+        <span>Weight in KG</span>
+    </div>
+    <div class="inputBox">
+        <input type="float" id="2" value="" required="required">
+        <span>Height in Feet</span>
     </div>
     <div class="btn">
         <button onclick="bmiCalculator()">Check BMI</button>
     </div>
+</div>
+<div class="output">
+<p id="result"> </p>
+</div>
+    </fieldset>
     <div class="imageBox">
     <div class="image">
         <img src="./bmi-chart.gif" alt="">
     </div>
     </div>
 
+<script src="./index.js"></script>
+
 </body>
-
-
-<script>
-    const bmiCalculator = () =>{
-    let weight =prompt("Please enter your Weight","Must be in KG") ;
-    weight = parseFloat(weight)
-    let height = prompt("Please enter your Height","Must be in (Feet.Inches)");
-    height = parseFloat(height)
-    let bmi = weight/((height*0.3048)**2)
-    bmi = parseFloat(bmi).toFixed(2)
-
-    if (bmi < 18.5){
-        alert("Your Body Mass Index is " + bmi +"." + " This is considered Underweight.")
-    }
-    else if (bmi >= 18.5 && bmi < 25){
-        alert("Your Body Mass Index is " + bmi +"." +" This is considered Normal.")
-    }
-    else if (bmi >= 25 && bmi < 30){
-        alert("Your Body Mass Index is " + bmi +"." +" This is considered Overweight.")
-    }
-    else {
-        alert("Your Body Mass Index is " + bmi +"." +" This is considered Obese.")
-    }
-    }
-</script>
 </html>
