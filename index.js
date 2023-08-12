@@ -3,11 +3,13 @@ const bmiCalculator = () =>{
     weight = Number(weight)
     let height = document.getElementById('2').value
     height = Number(height)
-    let bmi = weight/((height*0.3048)**2)
+    let heightInMeter = ((height-0.08)*0.3048)**2
+    console.log(heightInMeter)
+    let bmi = weight/heightInMeter
     bmi = Number(bmi).toFixed(2)
-    let advice = weight * (33/100)
+    let advice = (bmi-22)*heightInMeter
     advice = advice.toFixed(1)
-    let adviceToUnderweight = weight * (36.4/100)
+    let adviceToUnderweight = (22-bmi)*heightInMeter
     adviceToUnderweight = adviceToUnderweight.toFixed(1)
     //  outputFunc =(n)=> {
     //     return( `Your Body Mass Index is ${bmi}. This is considered ${n}. You should loose ${advice} kg to get healthy.`)}
