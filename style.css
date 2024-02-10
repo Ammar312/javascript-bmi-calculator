@@ -1,255 +1,256 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100%;
-    background: linear-gradient(#0a0a8b, blue);
-    /* background-color: #00008B; */
-    /* background-color: #FFDB58; */
+  height: 100%;
+  background: linear-gradient(#0a0a8b, blue);
+  /* background-color: #00008B; */
+  /* background-color: #FFDB58; */
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 58px;
-    background-color: #FFDB58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  background-color: #ffdb58;
 }
 
 header div {
-    font-size: 2.3em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 0.1em;
-    font-weight: bold;
+  font-size: 2.3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bold;
 }
 
 fieldset {
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 42px;
-    border: 2px solid white;
-    border-radius: 4px;
-    margin-bottom: 40px;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 42px;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 40px;
 }
 
 fieldset legend {
-    margin-bottom: 37px;
+  margin-bottom: 37px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
 }
 
 .head {
-    width: 100%;
-    height: 70px;
-    padding: 0px 10px;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 0px 10px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
 }
 
 .btn button {
-    padding: 20px 50px;
-    color: white;
-    font-size: 1.8em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid white;
-    background: linear-gradient(to right bottom, rgba(10, 10, 139, 0.261), blue);
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-    user-select: none;
+  padding: 20px 50px;
+  color: white;
+  font-size: 1.8em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid white;
+  background: linear-gradient(to right bottom, rgba(10, 10, 139, 0.261), blue);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  user-select: none;
 }
 
 .btn button:hover {
-    background: rgb(236, 234, 234);
-    color: black;
-    font-size: 1.9em;
+  background: rgb(236, 234, 234);
+  color: black;
+  font-size: 1.9em;
 }
 
 .output {
-    width: 550px;
-    height: auto;
-    padding: 20px;
-    margin: 20px auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 12%);
-    transition: 0.2s;
+  width: 550px;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 12%);
+  transition: 0.2s;
 }
 
 .imageBox {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    border: 2px solid #dfe9f8;
-    width: 43%;
-    padding: 40px 0px;
-    background: wheat;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #dfe9f8;
+  width: 43%;
+  padding: 40px 0px;
+  background: wheat;
 }
 
 .image img {
-    width: 100%;
-    max-width: 470px;
-    height: auto;
+  width: 100%;
+  max-width: 470px;
+  height: auto;
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .inputBox {
-    position: relative;
-    width: 260px;
-    margin-bottom: 28px;
+  position: relative;
+  width: 260px;
+  margin-bottom: 28px;
 }
 
 .inputBox input {
-    width: 100%;
-    padding: 15px 10px 10px 10px;
-    border: 1px solid rgba(255, 255, 255, 0.452);
-    border-radius: 5px;
-    outline: none;
-    font-size: 1em;
-    color: black;
-    transition: 0.5s;
+  width: 100%;
+  padding: 15px 10px 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.452);
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  color: black;
+  transition: 0.5s;
 }
 
 .inputBox span {
-    position: absolute;
-    left: 0px;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: 0.5s;
+  position: absolute;
+  left: 0px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.5s;
 }
 
-.inputBox input:valid~span,
-.inputBox input:focus~span {
-    color: rgb(253, 254, 255);
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.85em;
-    padding: 2px 8px;
-    letter-spacing: 0.15em;
-    background: rgb(3, 3, 46);
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  color: rgb(253, 254, 255);
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.85em;
+  padding: 2px 8px;
+  letter-spacing: 0.15em;
+  background: rgb(3, 3, 46);
 }
 
 .inputBox input:valid,
 .inputBox input:focus {
-    border: 1px solid rgb(41, 42, 43);
+  border: 1px solid rgb(41, 42, 43);
 }
 
-@media screen and (max-width:1024px) {
-    fieldset {
-        width: 70%;
-        padding-left: 19px;
-    }
+@media screen and (max-width: 1024px) {
+  fieldset {
+    width: 70%;
+    padding-left: 19px;
+  }
 
-    .image {
-        width: 50%;
-        padding: 30px 0px;
-    }
+  .image {
+    width: 50%;
+    padding: 30px 0px;
+  }
 
-    .output {
-        width: 515px;
-    }
+  .output {
+    width: 515px;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .output {
-        width: 385px;
-    }
+@media screen and (max-width: 768px) {
+  .output {
+    width: 385px;
+  }
 
-    .image {
-        padding: 10px 10px;
-    }
+  .image {
+    padding: 10px 10px;
+  }
 }
 
-@media screen and (max-width:425px) {
-    header div {
-        font-size: 1.9em;
-    }
+@media screen and (max-width: 455px) {
+  header div {
+    font-size: 1.9em;
+  }
 
-    fieldset {
-        width: 95%;
-        padding-left: 15px;
-    }
+  fieldset {
+    width: 100%;
+    /* padding-left: 15px; */
+    border: 0;
+  }
 
-    .output {
-        width: 360px;
-    }
+  .output {
+    margin: 0 auto 0 auto;
+    width: 90%;
+  }
 
-    .image {
-        width: 98%;
-        background-color: transparent;
-    }
+  .image {
+    width: 98%;
+    background-color: transparent;
+  }
 }
 
-@media screen and (max-width:375px) {
-    header div {
-        font-size: 1.8em;
-        letter-spacing: 0em;
-    }
+@media screen and (max-width: 375px) {
+  header div {
+    font-size: 1.6em;
+    letter-spacing: 0em;
+  }
 
-    fieldset {
-        width: 100%;
-        padding-left: 11px;
-    }
-
-    .output {
-        width: 340px;
-    }
+  fieldset {
+    width: 100%;
+    /* padding-left: 11px; */
+  }
+  legend {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .head h1 {
+    font-size: 24px;
+  }
 }
 
-@media screen and (max-width:320px) {
-    fieldset {
-        padding: 0px 1px;
-    }
+@media screen and (max-width: 320px) {
+  .output {
+    width: 290px;
+  }
 
-    .output {
-        width: 290px;
-    }
+  .image {
+    padding: 0px;
+  }
 
-    .image {
-        padding: 0px;
-    }
-
-    .head {
-        background-color: bisque;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 10;
-    }
+  .head {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10;
+  }
 }
